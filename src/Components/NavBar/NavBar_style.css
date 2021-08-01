@@ -1,0 +1,53 @@
+.navbar{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 2.5em;
+    width: 70%;
+    text-align: left;
+    font-weight: 600;
+}
+
+header{
+    width:100%;
+   
+    background-color: var(--white);
+}
+
+input{
+    width: 30%;
+    height: 100%;
+    padding: 5px 35px ;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid rgb(228, 227, 227);
+    /* border-radius: 50px; */
+    background-image: url('../../Media/SVG/loupe.png');
+    background-color: var(--bg-color);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position:5px 5px ;
+    transition: all 0.5s  ;
+}
+
+input:focus{
+    outline: none;
+    
+    /* box-shadow: 1px 1px 1px  grey; */
+}
+input::-webkit-search-cancel-button{
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    color: black;
+    background-color: black;
+
+
+}
